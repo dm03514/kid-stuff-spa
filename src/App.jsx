@@ -17,7 +17,9 @@ import Pricing from './pages/Pricing';
 import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
 import About from './pages/About';
+import Destination from './pages/Destination';
 import Documentation from './pages/Documentation';
+import Explore from './pages/Explore';
 import Help from './pages/Support';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
@@ -48,13 +50,14 @@ function App() {
   return (
     <>
       <Routes>
-        <Route exact path="/" element={<Home />} />
+        <Route exact path="/" element={<Explore />} />
         <Route path="/tutorials" element={<Tutorials />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog-post" element={<BlogPost />} />
         <Route path="/about" element={<About />} />
         <Route path="/documentation" element={<Documentation />} />
+        <Route path="/destination/:id" element={<Destination />} />
         <Route path="/support" element={<Help />} />
         <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
