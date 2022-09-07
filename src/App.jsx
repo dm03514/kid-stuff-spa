@@ -25,6 +25,7 @@ import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import ResetPassword from './pages/ResetPassword';
 import PageNotFound from './pages/PageNotFound';
+import Locations from "./pages/Locations";
 
 function App() {
 
@@ -51,6 +52,7 @@ function App() {
     <>
       <Routes>
         <Route exact path="/" element={<Explore />} />
+        <Route path="/locations" element={<Locations />} />
         <Route path="/tutorials" element={<Tutorials />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/blog" element={<Blog />} />
@@ -60,6 +62,7 @@ function App() {
         <Route path="/destination/:id" element={<Destination />} />
         <Route path="/support" element={<Help />} />
         <Route path="/signin" element={<SignIn />} />
+        <Route path="/explore/:sub_region" element={<Explore />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/reset-password" element={<ResetPassword />} />
         <Route path="*" element={<PageNotFound />} />
