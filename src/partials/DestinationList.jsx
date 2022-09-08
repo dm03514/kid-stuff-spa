@@ -59,10 +59,11 @@ export default class DestinationList extends Component {
                     <div>
                       <header>
                         <h2 className="h4 mb-2">
-                          <a href={item.link} className="hover:underline">{ item.name }</a>
+                          <a href={'/destination/' + item.id + '/'} className="hover:underline">{ item.name }</a>
                         </h2>
                       </header>
                       <div className="text-lg text-gray-600 mb-4">
+                          {item.description}
                       </div>
                       <footer className="text-sm">
                         <div className="flex items-center">
@@ -74,12 +75,12 @@ export default class DestinationList extends Component {
                         </div>
                       </footer>
                     </div>
-                    <Link to="/blog-post" className="block shrink-0 ml-6">
+                    <a href={'/destination/' + item.id + '/'} className="block shrink-0 ml-6">
                       <span className="sr-only">Read more</span>
                       <svg className="w-4 h-4 fill-current text-blue-600" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <path d="M9.3 14.7l-1.4-1.4L12.2 9H0V7h12.2L7.9 2.7l1.4-1.4L16 8z" />
                       </svg>
-                    </Link>
+                    </a>
                   </article>
                   ))}
                 </div>
