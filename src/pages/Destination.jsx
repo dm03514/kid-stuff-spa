@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams } from "react-router-dom";
 
 import Header from '../partials/Header';
-import PostSingle from '../partials/PostSingle';
+import DestinationSingle from '../partials/DestinationSingle';
 import Footer from '../partials/Footer';
 
 
@@ -19,7 +19,7 @@ function Destination() {
       <main className="grow">
 
         {/*  Page sections */}
-        <PostSingle />
+        <DestinationSingle />
 
       </main>
 

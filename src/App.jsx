@@ -59,7 +59,7 @@ function App() {
         <Route path="/blog-post" element={<BlogPost />} />
         <Route path="/about" element={<About />} />
         <Route path="/documentation" element={<Documentation />} />
-        <Route path="/destination/:id" element={<Destination />} />
+        <Route path="/destinations/:id" element={<Destination />}  />
         <Route path="/support" element={<Help />} />
         <Route path="/signin" element={<SignIn />} />
         <Route path="/explore/:sub_region" element={<Explore />} />
