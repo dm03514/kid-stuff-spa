@@ -1,11 +1,5 @@
 import {React, Component} from 'react';
-import { Link } from 'react-router-dom';
-
-import NewsAuthor01 from '../images/news-author-01.jpg';
-import NewsAuthor02 from '../images/news-author-02.jpg';
-import NewsAuthor03 from '../images/news-author-03.jpg';
-import NewsAuthor04 from '../images/news-author-04.jpg';
-import NewsAuthor06 from '../images/news-author-06.jpg';
+import destinations from "../utils/Destinations";
 
 export default class DestinationList extends Component {
   constructor(props) {
@@ -17,21 +11,18 @@ export default class DestinationList extends Component {
     };
   }
 
-  componentDidMount() {
-    fetch("http://localhost:8000/v0/explore/")
-        .then(response => response.json())
-        .then(data => {
-          console.log(data);
+  async componentDidMount() {
+      try {
+          const data = await destinations.destinations();
           this.setState({
-            destinations: data.results
+              destinations: data.results
           })
-        })
-        .catch(e => {
+      } catch (e) {
           alert(e);
           this.setState({
-            error: e
+              error: e
           })
-        })
+      }
   }
 
 

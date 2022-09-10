@@ -11,6 +11,12 @@ class Destinations {
         return json;
     }
 
+    async destinations(filters) {
+        const response = await fetch("http://localhost:8000/v0/explore/");
+        const json = await response.json();
+        return json;
+    }
+
     transformDestination(destination) {
         const dest = destination;
         dest.updated_at = new Date(dest.updated_at);

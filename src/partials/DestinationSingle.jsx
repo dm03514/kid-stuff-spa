@@ -35,6 +35,7 @@ export default class DestinationSingle extends Component {
         destination: data
       });
     } catch (e) {
+      alert(e);
       this.setState({
         error: e
       });
@@ -99,19 +100,18 @@ export default class DestinationSingle extends Component {
                         </p>
                         <h3 id="attrs" className="h3 text-gray-900 mb-4" style={{ scrollMarginTop: '100px' }}>Amenities</h3>
                         {dest.attributes.length > 0 &&
-                            <table className="table-auto w-full border-b border-gray-200">
+                            <table className="table-auto w-full border border-gray-200 border-collapse">
                               <tbody>
                               {dest.attributes.map((item) => (
                                   <tr className="border-t border-gray-200">
-                                    <td className="text-sm sm:text-base pr-2 py-4">
+                                    <td className="text-sm sm:text-base pr-2 py-4 border-slate-300">
                                       {item.name}
                                     </td>
-                                    <td className="text-sm sm:text-base pr-2 py-4">{item.value}</td>
+                                    <td className="text-sm sm:text-base pr-2 py-4 border-slate-300">{item.value}</td>
                                   </tr>
                               ))}
                               </tbody>
                             </table>
-
                         }
                         <table>
                         </table>
