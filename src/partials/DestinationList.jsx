@@ -49,7 +49,7 @@ export default class DestinationList extends Component {
                     <div>
                       <header>
                         <h2 className="h4 mb-2">
-                          <a href={'/destinations/' + item.id + '/'} className="hover:underline">{ item.name }</a>
+                          <a href={'/destinations/' + item.id + '/'} className="hover:underline">{ item.name } - {item.location.city}, {item.location.state}</a>
                         </h2>
                       </header>
                       <div className="text-lg text-gray-600 mb-4">
