@@ -11,10 +11,10 @@ export default class DestinationSingle extends Component {
     this.state = {
       destination: {
         attributes: [],
-        categories: [],
         name: null,
         link: null,
         updated_at: null,
+        tags: [],
         destinationimage_set: null,
         description: null,
         location: {
@@ -79,8 +79,8 @@ export default class DestinationSingle extends Component {
                               <a href={dest.link}>Visit Website</a>
                             </div>
                             <ul>
-                              {dest.categories.map((item) => (
-                                <li className="float-left btn bg-blue-500 mx-1 rounded py-1 px-1 text-white">{item} </li>
+                              {dest.tags.map((tag) => (
+                                <li className="float-left btn bg-blue-500 mx-1 rounded py-1 px-1 text-white">{tag} </li>
                               ))}
                             </ul>
                             <div className="flex items-center mb-6 clear-both">

@@ -38,6 +38,7 @@ class Destinations {
                     value: '\u2713'
                 };
             }
+
             return attr;
         });
 

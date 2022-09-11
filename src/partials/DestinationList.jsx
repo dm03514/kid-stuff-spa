@@ -58,8 +58,8 @@ export default class DestinationList extends Component {
                       <footer className="text-sm">
                         <div className="flex items-center">
                           <div>
-                            {item.categories.map((category) => (
-                                <span className="text-black-600">{ category } </span>
+                            {item.tags.map((tag) => (
+                                <span className="text-black-600">{tag} </span>
                             ))}
                           </div>
                         </div>

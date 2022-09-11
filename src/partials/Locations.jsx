@@ -27,7 +27,7 @@ export default class Locations extends Component {
                       <div className="flex items-center pb-6 border-b-2">
                         <div className="w-1/3 bg-amber-50">
                           <h1 classname="h1 mb-4">Maryland</h1>
-                          <ul>
+                          <ul className="list-inside list-disc">
                             <li><a href="/explore/baltimore/">Baltimore</a></li>
                           </ul>
                         </div>

@@ -10,9 +10,9 @@ function AboutIntro() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h1 mb-4">KidStuff makes it easy for parents and caregivers to discover fun things to do in the area.</h1>
+            <h1 className="h1 mb-4">Let's Go, Kids! makes it easy for caregivers to discover new destinations and events nearby to help fill the day with effortless kid fun</h1>
             <p className="text-xl text-gray-600">
-              As parents, we've discovered so many fun places by word of mouth. KidStuff makes it easy to discover the hidden kid's places in your area.
+              As parents, we've discovered so many fun places by word of mouth. Let's Go, Kids! makes it easy to learn about hidden gems in your area, from playgrounds to parks and more. If you've ever wondered "What can we do with the kids today?" Let's Go, Kids! can help.
             </p>
           </div>
         </div>
