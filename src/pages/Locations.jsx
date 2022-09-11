@@ -1,11 +1,12 @@
 import React from 'react';
 
 import Header from '../partials/Header';
-import TutorialsList from '../partials/TutorialsList';
-import Newsletter from '../partials/Newsletter';
+import Locations from '../partials/Locations';
 import Footer from '../partials/Footer';
 
-function Locations() { return (
+
+function LocationsPage() {
+  return (
     <div className="flex flex-col min-h-screen overflow-hidden">
 
       {/*  Site header */}
@@ -15,7 +16,7 @@ function Locations() { return (
       <main className="grow">
 
         {/*  Page sections */}
-        <TutorialsList />
+        <Locations />
 
       </main>
 
@@ -26,4 +27,4 @@ function Locations() { return (
   );
 }
 
-export default Locations;
+export default LocationsPage;

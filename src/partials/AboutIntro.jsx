@@ -10,16 +10,11 @@ function AboutIntro() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h1 mb-4">We enable developers to build amazing things</h1>
+            <h1 className="h1 mb-4">KidStuff makes it easy for parents and caregivers to discover fun things to do in the area.</h1>
             <p className="text-xl text-gray-600">
-              We have transformed product development, making it faster, simpler... better! That's why in just three years we now help more developers build projects than anyone else.
+              As parents, we've discovered so many fun places by word of mouth. KidStuff makes it easy to discover the hidden kid's places in your area.
             </p>
           </div>
-
-          <figure className="flex justify-center items-start">
-            <img className="rounded shadow-2xl" src={AboutImage} width="768" height="432" alt="About us" />
-          </figure>
-
         </div>
       </div>
     </section>

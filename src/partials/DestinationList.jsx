@@ -7,7 +7,8 @@ export default class DestinationList extends Component {
 
     this.state = {
       destinations: [],
-      error: null
+      error: null,
+      sub_region: props.sub_region,
     };
   }
 
@@ -35,8 +36,8 @@ export default class DestinationList extends Component {
 
               {/* Page header */}
               <div className="max-w-3xl pb-12 md:pb-20 text-center md:text-left">
-                <h1 className="h1 mb-4">Adventures near Baltimore!</h1>
-                <p className="text-xl text-gray-600"></p>
+                  <h1 className="h1 mb-4">What to do with kids near <span style={{textTransform: 'capitalize'}}>{this.state.sub_region}</span>!</h1>
+                  <p className="text-xl text-gray-600"><a href="/locations">(Or checkout additional <span className="text-blue-500">locations</span>)</a></p>
               </div>
 
               {/* Main content */}
