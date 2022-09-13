@@ -15,7 +15,7 @@ export default class DestinationSingle extends Component {
         link: null,
         updated_at: null,
         tags: [],
-        destinationimage_set: null,
+        destinationimage_set: [],
         description: null,
         location: {
           city: null,
@@ -69,6 +69,9 @@ export default class DestinationSingle extends Component {
                           {dest.reactGenerated.images.length > 0 &&
                               <ImageGallery items={dest.reactGenerated.images}/>
                           }
+                          {dest.images &&
+                              <a href="#image_credits">(Images may be subject to copyright)</a>
+                          }
                         </div>
                         <div className="w-1/2 ml-4">
                           <div>
@@ -113,8 +116,6 @@ export default class DestinationSingle extends Component {
                               </tbody>
                             </table>
                         }
-                        <table>
-                        </table>
                         <h3 id="map" className="h3 text-gray-900 mb-4" style={{ scrollMarginTop: '100px' }}>Map</h3>
                         { dest.location.street_address &&
                         <iframe
@@ -127,6 +128,15 @@ export default class DestinationSingle extends Component {
                             src={"https://www.google.com/maps/embed/v1/place?key=AIzaSyDhhsQ4ci6yQI2GbkW4t1ZJNBU2mOhiGm8&q=" + dest.reactGenerated.map_address}>
                         </iframe>
                         }
+
+                        <h3 id="image_credits" className="h3 text-gray-900 mb-4" style={{ scrollMarginTop: '100px' }}>Image Credits</h3>
+                        <div>
+                          <ul>
+                            {dest.destinationimage_set.map((image) => (
+                              <li className="list-inside list-disc">Credits: <a href="{image.credits_url}">{image.credits || "unknown"}</a></li>
+                            ))}
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>

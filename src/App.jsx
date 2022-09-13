@@ -16,6 +16,7 @@ import Destination from './pages/Destination';
 import Explore from './pages/Explore';
 import PageNotFound from './pages/PageNotFound';
 import Locations from "./pages/Locations";
+import Terms from './pages/Terms';
 
 function App() {
 
@@ -44,7 +45,8 @@ function App() {
         <Route exact path="/" element={<Explore />} />
         <Route path="/locations" element={<Locations />} />
         <Route path="/about" element={<About />} />
-        <Route path="/destinations/:id" element={<Destination />}  />
+        <Route path="/legal" element={<Terms />} />
+        <Route path="/destinations/:id/:slug" element={<Destination />}  />
         <Route path="/explore/:sub_region" element={<Explore />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>

@@ -27,7 +27,7 @@ function Footer() {
               </Link>
             </div>
             <div className="text-sm text-gray-600">
-              <Link to="#" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Terms</Link>
+              <Link to="/legal" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Terms</Link>
             </div>
           </div>
 
@@ -57,7 +57,7 @@ function Footer() {
           </ul>
 
           {/* Copyrights note */}
-          <div className="text-sm text-gray-600 mr-4">&copy; Data Insights, llc. All rights reserved.</div>
+          <div className="text-sm text-gray-600 mr-4">&copy; Daniel Mican. All rights reserved.</div>
 
         </div>
 

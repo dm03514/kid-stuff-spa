@@ -49,18 +49,20 @@ export default class DestinationList extends Component {
                     <div>
                       <header>
                         <h2 className="h4 mb-2">
-                          <a href={'/destinations/' + item.id + '/'} className="hover:underline">{ item.name } - {item.location.city}, {item.location.state}</a>
+                          <a href={'/destinations/' + item.id + '/' + item.slug} className="hover:underline">{ item.name } - {item.location.city}, {item.location.state}</a>
                         </h2>
                       </header>
                       <div className="text-lg text-gray-600 mb-4">
-                          {item.description}
+                          {item.synopsis || item.description}
                       </div>
                       <footer className="text-sm">
                         <div className="flex items-center">
                           <div>
-                            {item.tags.map((tag) => (
-                                <span className="text-black-600">{tag} </span>
-                            ))}
+                            <ul>
+                                {item.tags.map((tag) => (
+                                    <li className="float-left btn bg-blue-500 mx-1 rounded py-1 px-1 text-white">{tag} </li>
+                                ))}
+                            </ul>
                           </div>
                         </div>
                       </footer>

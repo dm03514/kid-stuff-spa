@@ -74,6 +74,9 @@ function Header() {
               <li>
                 <Link to="/about" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">About</Link>
               </li>
+              <li>
+                <Link to="/legal" className="flex text-gray-600 hover:text-gray-900 py-2">Terms & Conditions</Link>
+              </li>
             </ul>
 
 
@@ -118,6 +121,9 @@ function Header() {
                   </li>
                   <li>
                     <Link to="/about" className="flex text-gray-600 hover:text-gray-900 py-2">About us</Link>
+                  </li>
+                  <li>
+                    <Link to="/legal" className="flex text-gray-600 hover:text-gray-900 py-2">Terms & Conditions</Link>
                   </li>
                 </ul>
               </Transition>
