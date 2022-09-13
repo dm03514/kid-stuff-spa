@@ -1,7 +1,5 @@
 import React from 'react';
 
-import AboutImage from '../images/about-01.jpg';
-
 function AboutIntro() {
   return (
     <section>

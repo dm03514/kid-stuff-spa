@@ -1,13 +1,6 @@
 import React from 'react';
 
 import Header from '../partials/Header';
-import AboutIntro from '../partials/AboutIntro';
-import AboutStory from '../partials/AboutStory';
-import Stats from '../partials/Stats';
-import Team from '../partials/Team';
-import Career from '../partials/Career';
-import Process from '../partials/Process';
-import CtaAlternative from '../partials/CtaAlternative';
 import Footer from '../partials/Footer';
 
 function Terms() {
@@ -28,7 +21,7 @@ function Terms() {
 
               All data and information provided on this site is for informational purposes only.  I make no representations as to accuracy, completeness, currentness, suitability, or validity of any information on this site and will not be liable for any errors, omissions, or delays in this information or any losses, injuries, or damages arising from its display or use. All information is provided on an as-is basis with no warranties, and confers no rights.
 
-              In no event shall Been There Done That with Kids be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever, whether in an action of contract, negligence or another tort, arising out of or in connection with the use of this blog or the contents of this blog.  Been There Done That with Kids reserves the right to make additions, deletions, or modification to the contents of this website at any time without prior notice.
+              In no event shall let's go, Kids! be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever, whether in an action of contract, negligence or another tort, arising out of or in connection with the use of this blog or the contents of this blog.  let's go, Kids! reserves the right to make additions, deletions, or modification to the contents of this website at any time without prior notice.
 
               This blog represents the thoughts, intentions, plans or strategies of me. It is solely my opinion.
 

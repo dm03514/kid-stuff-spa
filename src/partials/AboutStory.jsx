@@ -1,8 +1,5 @@
 import React from 'react';
 
-import AboutImage from '../images/about-02.jpg';
-import AboutLogo from '../images/about-logo.png';
-
 function AboutStory() {
   return (
     <section>
