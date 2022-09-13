@@ -1,6 +1,13 @@
 # Simple React
 
-React landing page template designed by Cruip.
+
+## Data Dump 
+
+```
+curl -H 'Content-type: application/json' http://localhost:8000/v0/explore/ | jq . > explore.json
+cat explore.json | jq '.results' | jq 'INDEX(.id)' > destinations.json
+```
+
 
 ## Project setup
 ```

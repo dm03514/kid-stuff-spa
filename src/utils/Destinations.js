@@ -1,20 +1,48 @@
+import exploreData from "../data/explore.json";
+import destinationsData from "../data/destinations.json";
+import config from '../config';
 
 
-class Destinations {
+class StaticLoader {
+    destinations(filters) {
+        return exploreData;
+    }
+
+    destination(id) {
+        return destinationsData[id];
+    }
+}
+
+class APILoader {
     constructor(apiBaseURL) {
         this.apiBaseURL = apiBaseURL;
     }
 
     async destination(id) {
-        const response = await fetch("http://localhost:8000/v0/destinations/" + id + "/")
+        const response = await fetch(this.apiBaseURL + "/v0/destinations/" + id + "/")
         const json = await response.json();
         return json;
     }
 
     async destinations(filters) {
-        const response = await fetch("http://localhost:8000/v0/explore/");
+        const response = await fetch(this.apiBaseURL + "/v0/explore/");
         const json = await response.json();
         return json;
+    }
+}
+
+class Destinations {
+
+    constructor(loader) {
+        this.loader = loader;
+    }
+
+    async destination(id) {
+        return this.loader.destination(id);
+    }
+
+    async destinations(filters) {
+        return this.loader.destinations(filters);
     }
 
     transformDestination(destination) {
@@ -50,6 +78,13 @@ class Destinations {
     }
 }
 
-const destinations = new Destinations('http://localhost:8000')
+let loader;
+if (config.STATIC_BACKEND_DATA) {
+    loader = new StaticLoader();
+} else {
+    loader = new APILoader(
+        'http://localhost:8000'
+    );
+}
 
-export default destinations;
+export default new Destinations(loader);
