@@ -54,7 +54,8 @@ class Destinations {
         if (dest.destinationimage_set) {
             images = dest.destinationimage_set.map((item, i) => {
                 return {
-                    original: item.image_ref_url
+                    original: item.image_ref_url,
+                    description: item.description
                 }
             });
         }

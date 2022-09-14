@@ -98,9 +98,9 @@ export default class DestinationSingle extends Component {
                       {/* Article body */}
                       <div flex className="text-lg text-gray-600">
                         <h3 id="general" className="h3 text-gray-900 mb-4" style={{ scrollMarginTop: '100px' }}>Description</h3>
-                        <p className="mb-8" style={{scrollMarginTop: '100px'}}>
+                        <div className="mb-8" style={{scrollMarginTop: '100px', whiteSpace: 'pre-line'}}>
                           {dest.description}
-                        </p>
+                        </div>
                         <h3 id="attrs" className="h3 text-gray-900 mb-4" style={{ scrollMarginTop: '100px' }}>Amenities</h3>
                         {dest.attributes.length > 0 &&
                             <table className="table-auto w-full border-gray-200 border-collapse">
