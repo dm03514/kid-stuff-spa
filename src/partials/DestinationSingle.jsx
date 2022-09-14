@@ -133,7 +133,7 @@ export default class DestinationSingle extends Component {
                         <div>
                           <ul>
                             {dest.destinationimage_set.map((image) => (
-                              <li className="list-inside list-disc">Credits: <a href="{image.credits_url}">{image.credits || "unknown"}</a></li>
+                              <li className="list-inside list-disc">Credits: <a href={image.credits_url}>{image.credits || "unknown"}</a></li>
                             ))}
                           </ul>
                         </div>
