@@ -57,14 +57,15 @@
         "image": null,
         "credits": "WBAL TV",
         "credits_url": "https://www.wbaltv.com/article/park-children-with-disabilities-opens-in-howard-county/36631972",
-        "image_ref_url": "https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/blandair-park-playgound-pkg-final-00000906-jpg-1622829689.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*"
+        "image_ref_url": "https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/blandair-park-playgound-pkg-final-00000906-jpg-1622829689.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*",
+        "description": null
       }
     ],
     "synopsis": null
   },
   "4": {
     "id": 4,
-    "description": "",
+    "description": "Welcome to Millard Cooper park, a city park of the town Sykesville, Maryland. Millard Cooper provides an entire days of activities, combining playgrounds, paved paths, open space, short hiking trails and picnic tables and pavilions. \r\n\r\nMillard Cooper has a splash pad that is open during the summer!. \r\n\r\nMillard Cooper has plenty of dedicated and overflow parking. Adjacent to the park is a paved trail around historic Springfield Hospital. \r\n\r\nDirectly across the street is the Historic Gatehouse Museum. The gatehouse was originally the checkin location for visitors to Springfield Hospital.\r\n\r\nMillard Cooper is walking distance to downtown Sykesville with both restaurants and an ice cream parlor.\r\n\r\nMillard cooper is close to Westminster, Columbia and Baltimore.",
     "contact_phone": null,
     "contact_email": null,
     "link": "https://www.townofsykesville.org/Facilities/Facility/Details/Millard-Cooper-Park-4",
@@ -73,7 +74,8 @@
     "tags": [
       "playground",
       "parking",
-      "free"
+      "free",
+      "splashpad"
     ],
     "attributes": [
       {
@@ -99,6 +101,18 @@
       {
         "name": "trails.paved",
         "value": "true"
+      },
+      {
+        "name": "trails.dirt",
+        "value": "true"
+      },
+      {
+        "name": "playground.toddler",
+        "value": "true"
+      },
+      {
+        "name": "splashpad",
+        "value": "true"
       }
     ],
     "location": {
@@ -110,13 +124,56 @@
       "city": "Sykesville",
       "zip": "21784"
     },
-    "updated_at": "2022-09-12T23:24:42.733661Z",
+    "updated_at": "2022-09-14T20:52:33.057997Z",
     "destinationimage_set": [
       {
         "image": null,
-        "credits": "GameTime",
-        "credits_url": "https://www.gametime.com/projects/millard-cooper-park",
-        "image_ref_url": "https://www.gametime.com/images/sized/GameTime_Millard_Cooper_Park_005-17576-1611788595-0062e361657004ab4b853673e30dfff5.jpg"
+        "credits": "letsgokids",
+        "credits_url": "https://letsgokids.us",
+        "image_ref_url": "https://i.imgur.com/dcCnGsi.jpg",
+        "description": "Bottom playground"
+      },
+      {
+        "image": null,
+        "credits": "letsgokids",
+        "credits_url": "https://letsgokids.us",
+        "image_ref_url": "https://i.imgur.com/KheWfkM.jpg",
+        "description": "Toddler playground and swings"
+      },
+      {
+        "image": null,
+        "credits": "letsgokids",
+        "credits_url": "https://letsgokids.us",
+        "image_ref_url": "https://i.imgur.com/qTPttMS.jpg",
+        "description": "Swings and bottom playground"
+      },
+      {
+        "image": null,
+        "credits": "letsgokids",
+        "credits_url": "https://letsgokids.us",
+        "image_ref_url": "https://i.imgur.com/ouxsrJ1.jpg",
+        "description": "Top blue jungle gym playground"
+      },
+      {
+        "image": null,
+        "credits": "letsgokids",
+        "credits_url": "https://letsgokids.us",
+        "image_ref_url": "https://i.imgur.com/Jb9e0FU.jpg",
+        "description": "Bathrooms."
+      },
+      {
+        "image": null,
+        "credits": "letsgokids",
+        "credits_url": "https://letsgokids.us",
+        "image_ref_url": "https://i.imgur.com/0J9YEry.jpg",
+        "description": "Pavilion and paved path"
+      },
+      {
+        "image": null,
+        "credits": "letsgokids",
+        "credits_url": "https://letsgokids.us",
+        "image_ref_url": "https://i.imgur.com/5Z937O3.jpg",
+        "description": "Cooper Park sign and upper blue playground"
       }
     ],
     "synopsis": "Playground and splash pad with paved trails. Close to downtown Syskesville with restaurants and ice cream!"
@@ -170,10 +227,79 @@
         "image": null,
         "credits": "baltimoremagazine.com",
         "credits_url": "https://www.baltimoremagazine.com/section/community/rash-field-redevelopment-debuts-inner-harbor-skate-park-playground-green-space/",
-        "image_ref_url": "https://www.baltimoremagazine.com/wp-content/uploads/2021/11/WFP_RASHFIELDOPENING_NEWMAN_51.jpg"
+        "image_ref_url": "https://www.baltimoremagazine.com/wp-content/uploads/2021/11/WFP_RASHFIELDOPENING_NEWMAN_51.jpg",
+        "description": null
       }
     ],
     "synopsis": null
+  },
+  "5": {
+    "id": 5,
+    "description": "Huge Wizard-of-oz themed playground, with petting zoo, and nature center, and trails. \r\n\r\nThis amazing destination playground has enough to do for an entire day! Just east of 495, it has plenty of parking and a huge wizard-of-oz themed playground! \r\n\r\nA short walk from the playground, on paved paths, is a petting zoo, a nature center, and picnic tables.",
+    "contact_phone": null,
+    "contact_email": null,
+    "link": "https://www.mncppc.org/3204/Watkins-Regional-Park",
+    "name": "Watkins Regional Park",
+    "slug": "watkins-regional-park",
+    "tags": [
+      "playground",
+      "parking",
+      "free"
+    ],
+    "attributes": [
+      {
+        "name": "playground",
+        "value": "true"
+      },
+      {
+        "name": "parking",
+        "value": "true"
+      },
+      {
+        "name": "bathrooms",
+        "value": "true"
+      },
+      {
+        "name": "free",
+        "value": "true"
+      },
+      {
+        "name": "pavilions",
+        "value": "true"
+      },
+      {
+        "name": "trails.paved",
+        "value": "true"
+      },
+      {
+        "name": "trails.dirt",
+        "value": "true"
+      },
+      {
+        "name": "zoo.petting",
+        "value": "true"
+      }
+    ],
+    "location": {
+      "street_address": "301 Watkins Park Drive",
+      "country": "USA",
+      "state": "MD",
+      "region": null,
+      "sub_region": "Baltimore",
+      "city": "Upper Marlboro",
+      "zip": "20774"
+    },
+    "updated_at": "2022-09-14T00:43:42.325079Z",
+    "destinationimage_set": [
+      {
+        "image": null,
+        "credits": "experienceprincegeorges",
+        "credits_url": "https://www.experienceprincegeorges.com/listing/watkins-regional-park/601/",
+        "image_ref_url": "https://assets.simpleviewinc.com/simpleview/image/upload/crm/princegeorgesmd/watkinsregionalpark0-2210205a5056a36_2210211d-5056-a36a-081b8b482bb9eb8e.jpg",
+        "description": null
+      }
+    ],
+    "synopsis": "Huge Wizard-of-oz themed playground, with petting zoo, and nature center, and trails."
   },
   "1": {
     "id": 1,
@@ -228,7 +354,8 @@
         "image": null,
         "credits": "dnr.maryland.gov",
         "credits_url": "https://dnr.maryland.gov/publiclands/Pages/central/PatapscoValley/Hilton/Playground-Nature-Center.aspx",
-        "image_ref_url": "https://dnr.maryland.gov/publiclands/PublishingImages/PVSP_hiltonplayground.jpg"
+        "image_ref_url": "https://dnr.maryland.gov/publiclands/PublishingImages/PVSP_hiltonplayground.jpg",
+        "description": null
       }
     ],
     "synopsis": null
