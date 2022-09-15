@@ -1,4 +1,5 @@
 import {React, Component} from 'react';
+import {Helmet} from "react-helmet";
 import ImageGallery from 'react-image-gallery';
 import destinations from "../utils/Destinations";
 
@@ -47,6 +48,18 @@ export default class DestinationSingle extends Component {
 
     return (
         <section>
+          <Helmet>
+            <meta charSet="utf-8" />
+            {dest.synopsis &&
+                <meta name="description" content={dest.synopsis}/>
+            }
+            <meta name="keywords" content={dest.tags.join(', ')} />
+            <title>{dest.name}</title>
+
+            <meta property="og:title" content={"Let's Go, Kids! - " + dest.name} />
+            <meta property="og:url" content={window.location} />
+          </Helmet>
+
           <div className="max-w-6xl mx-auto px-4 sm:px-6">
             <div className="pt-32 pb-12 md:pt-40 md:pb-20">
               <div className="max-w-3xl mx-auto lg:max-w-none">
