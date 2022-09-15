@@ -46,6 +46,7 @@ function App() {
         <Route path="/locations" element={<Locations />} />
         <Route path="/about" element={<About />} />
         <Route path="/legal" element={<Terms />} />
+        <Route path="/sitemap.xml" element='sitemap.xml' />
         <Route path="/destinations/:id/:slug" element={<Destination />}  />
         <Route path="/explore/:sub_region" element={<Explore />} />
         <Route path="*" element={<PageNotFound />} />
