@@ -5,7 +5,7 @@
   "results": [
     {
       "id": 2,
-      "description": "Gigantic destination-playground. Huge multi-story slide!",
+      "description": "Gigantic destination-playground. Huge multi-story slide!\r\n\r\nBlandair is gigantic. It's so gigantic that Columbia Parks put a child-proof fence around the entire playground. This playground consists of multiple individual playgrounds, including a huge multi-story slide.",
       "contact_phone": null,
       "contact_email": null,
       "link": "https://www.howardcountymd.gov/recreation-parks/parks#blandair-regional-park-columbia",
@@ -44,6 +44,10 @@
         {
           "name": "trails.paved",
           "value": "true"
+        },
+        {
+          "name": "playground.toddler",
+          "value": "true"
         }
       ],
       "location": {
@@ -55,7 +59,7 @@
         "city": "Columbia",
         "zip": "21045"
       },
-      "updated_at": "2022-09-11T18:04:29.384435Z",
+      "updated_at": "2022-09-15T00:18:43.444355Z",
       "destinationimage_set": [
         {
           "image": null,
@@ -65,7 +69,7 @@
           "description": null
         }
       ],
-      "synopsis": null
+      "synopsis": "Gigantic destination-playground. Huge multi-story slide!"
     },
     {
       "id": 4,
@@ -184,7 +188,7 @@
     },
     {
       "id": 3,
-      "description": "Huge playground on the water at the Inner Harbor in Baltimore. Lots of climbing and huge slides.",
+      "description": "Huge playground on the water at the Inner Harbor in Baltimore. Lots of climbing and huge slides. This playground is situated at Rash Field Park right next to the Baltimore Science Center and Skate Park. \r\n\r\nHuge playground with a fun rope bridge. The park provides lots of areas to sit and lots of rocks to climb on.",
       "contact_phone": null,
       "contact_email": null,
       "link": "https://waterfrontpartnership.org/explore/rash-field-park/adventure-park",
@@ -225,7 +229,7 @@
         "city": "Baltimore",
         "zip": "21230"
       },
-      "updated_at": "2022-09-11T23:52:14.562839Z",
+      "updated_at": "2022-09-15T00:16:32.583857Z",
       "destinationimage_set": [
         {
           "image": null,
@@ -235,7 +239,7 @@
           "description": null
         }
       ],
-      "synopsis": null
+      "synopsis": "Huge playground on the water at the Inner Harbor in Baltimore. Lots of climbing and huge slides."
     },
     {
       "id": 5,
@@ -307,7 +311,7 @@
     },
     {
       "id": 1,
-      "description": "Fun multi-part outdoor playground, with shredded tire mulch and tire obstacles. Access to many trails. Nature center.",
+      "description": "Hilton Area provides a fun destination including a multi-part playground, pavilions, nature center and dirt and paved trails. \r\n\r\nThe upper playground is a tire playground, containing lots of tire obstacles for the kids to play on. The lower area is a modern playground with slide. This is a fun area with something for kids of all ages. Plenty of parking is available here.\r\n\r\nMany dirt trails connect to this area. The Gris Mill paved trail can be access from the Hilton Area. \r\n\r\nA small nature center is open during weekends.",
       "contact_phone": null,
       "contact_email": null,
       "link": "https://dnr.maryland.gov/publiclands/Pages/central/PatapscoValley/Hilton/Playground-Nature-Center.aspx",
@@ -315,7 +319,8 @@
       "slug": "hilton-area-tire-playground-and-nature-center",
       "tags": [
         "playground",
-        "parking"
+        "parking",
+        "$"
       ],
       "attributes": [
         {
@@ -352,17 +357,17 @@
         "city": "Catonsville",
         "zip": "21228"
       },
-      "updated_at": "2022-09-11T18:04:41.193671Z",
+      "updated_at": "2022-09-15T00:11:27.657034Z",
       "destinationimage_set": [
         {
           "image": null,
           "credits": "dnr.maryland.gov",
           "credits_url": "https://dnr.maryland.gov/publiclands/Pages/central/PatapscoValley/Hilton/Playground-Nature-Center.aspx",
           "image_ref_url": "https://dnr.maryland.gov/publiclands/PublishingImages/PVSP_hiltonplayground.jpg",
-          "description": null
+          "description": "Tire playground"
         }
       ],
-      "synopsis": null
+      "synopsis": "Fun multi-part outdoor playground, with shredded tire mulch and tire obstacles. Access to many trails. Nature center."
     }
   ]
 }
